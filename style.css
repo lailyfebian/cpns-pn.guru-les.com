@@ -2146,7 +2146,7 @@ button,
 ===================================== */
 
 .keunggulan-cpns-section {
-    padding: 85px 0;
+    padding: 60px 0;
     background: #f5f9f5;
 }
 
@@ -2324,7 +2324,7 @@ button,
 
 
 .pilihan-les-cpns-section {
-    padding: 85px 0;
+    padding: 45px 0;
     background: #f5f9f5;
 }
 
@@ -4358,7 +4358,7 @@ button,
     margin: 0;
     padding: 0 60px 0;
     color: #68746B;
-    font-size: 12px !important;
+    font-size: 13px !important;
     font-weight: 400;
     line-height: 1.9;
     opacity: 0;
@@ -4504,7 +4504,7 @@ button,
 
     .faq-cpns-answer p {
         padding: 0 43px;
-        font-size: 11px !important;
+        font-size: 12px !important;
         line-height: 1.7;
     }
 
