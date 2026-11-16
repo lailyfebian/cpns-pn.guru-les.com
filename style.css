@@ -165,7 +165,7 @@ button,
     text-align: left;
     color: #045323;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.75;
     margin-bottom: 14px;
 }
@@ -282,6 +282,167 @@ button,
     }
 }
 
+@media only screen and (max-width: 767px) {
+
+    /* Global CSS */
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 20px !important;
+    }
+
+    p,
+    a,
+    ul li,
+    ol li,
+    b,
+    button,
+    .accordion .accordion-item .accordion-button,
+    i,
+    strong {
+        font-family: "Poppins", sans-serif;
+        ;
+        font-size: 12px !important;
+    }
+
+    .header-mobile .icon p,
+     {
+        font-size: 10px;
+    }
+
+    /* Akhir global CSS */
+
+    /* Header */
+    .header-mobile .menu {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 0;
+        z-index: 1000;
+        background-color: #ffffff;
+    }
+
+    /* Akhir header */
+
+    /* Section header */
+    .header-beranda {
+        background-image: url('images/bg-hero.png');
+        display: block;
+        position: relative;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .header-beranda .text-header p,
+    .header-beranda .text-header ul li {
+        font-size: 12px;
+    }
+
+    .header-beranda .text-header .teks-detail {
+        margin-left: -30px;
+    }
+
+    .header-beranda .container .btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .header-beranda img {
+        margin-top: 0;
+    }
+
+    .header-beranda #header-image-beranda {
+        width: 100%;
+    }
+
+    .header-beranda ul span i {
+        font-size: 10px;
+    }
+
+    .header-beranda #header-image-beranda {
+        position: relative;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .header-beranda .d-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .header-beranda .card {
+        padding: 20px 20px 10px 20px;
+        box-shadow: 1px 1px 7px #ccc;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        margin-top: -10px;
+    }
+
+    .header-beranda .d-grid li {
+        font-size: 12px;
+        margin-left: -15px;
+        margin-right: -15px;
+        text-align: start;
+        color: #045323;
+    }
+
+    .header-beranda .container p .header-beranda .container ul li {
+        font-size: 12px;
+    }
+
+    .header-beranda .image-header {
+        margin-top: 0px;
+    }
+
+    .header-beranda h1 {
+        font-size: 22px;
+    }
+
+    .header-beranda ul li {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    /* Akhir section header */
+
+    .button-wa {
+        right: 0;
+    }
+
+    .button-wa .popup-cta {
+        margin: auto;
+        margin-bottom: 10px;
+        width: 95%;
+    }
+
+    .button-wa .popup-cta .admin-item {
+        gap: 7px;
+    }
+
+    .button-wa .popup-cta .popup-text {
+        padding: 5px;
+    }
+
+    .button-wa .popup-cta .popup-text p,
+    .button-wa .popup-cta .admin-item span,
+    .button-wa span {
+        font-size: 12px;
+    }
+
+    .button-wa .popup-cta .admin-item img,
+    .button-wa img {
+        width: 40px;
+    }
+
+    /* Akhir page kontak kami */
+
+    .header-beranda .container .image-header img {
+        padding-left: 0;
+    }
+
+}
+
 
 /* ==============================
    PRODUK PRIVAT NUSANTARA
@@ -346,7 +507,7 @@ button,
 .produk-intro p {
     margin: 0 0 12px;
     color: #59675E;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.85;
 }
 
@@ -371,7 +532,7 @@ button,
 .produk-card h3 {
     margin: 0 0 7px;
     color: #075333;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 700;
     line-height: 1.45;
     text-align: center;
@@ -383,7 +544,7 @@ button,
     min-height: 66px;
     margin: 0 0 12px;
     color: #59675E;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.8;
     text-align: center;
 }
@@ -453,7 +614,7 @@ button,
 .produk-closing p {
     margin: 0;
     color: #59675E;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.8;
 }
 
@@ -545,7 +706,7 @@ button,
     }
 
     .produk-heading h2 {
-        font-size: 23px !important;
+        font-size: 22px !important;
         line-height: 1.4;
     }
 
@@ -554,7 +715,7 @@ button,
     }
 
     .produk-intro p {
-        font-size: 11px;
+        font-size: 13px;
         line-height: 1.8;
     }
 
@@ -580,7 +741,7 @@ button,
     .produk-description {
         min-height: auto;
         margin-bottom: 11px;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1.8;
     }
 
@@ -608,7 +769,7 @@ button,
     }
 
     .produk-closing p {
-        font-size: 11px;
+        font-size: 13px;
         line-height: 1.8;
     }
 
@@ -771,7 +932,7 @@ button,
 .keunggulan .count-item p {
     margin: 8px 0 0;
     color: #064329;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 1.5;
 }
@@ -931,12 +1092,12 @@ button,
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
-    width: 58px;
-    height: 58px;
+    width: 48px;
+    height: 48px;
     border-radius: 16px;
     background: #075333;
     color: #FFCA05;
-    font-size: 27px;
+    font-size: 26px;
 }
 
 /* LABEL */
@@ -949,7 +1110,7 @@ button,
     border-radius: 5px;
     background: #FFF4C2;
     color: #806000 !important;
-    font-size: 10px !important;
+    font-size: 11px !important;
     font-weight: 600 !important;
     letter-spacing: 1.2px;
     line-height: 1.4;
@@ -958,7 +1119,7 @@ button,
 .preparation-feature-header h3 {
     margin: 0;
     color: #075333;
-    font-size: 30px !important;
+    font-size: 32px !important;
     font-weight: 700;
     line-height: 1.4;
 }
@@ -999,7 +1160,7 @@ button,
 .preparation-item p {
     margin: 2px 0 0;
     color: #354C3E;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 1.65;
 }
@@ -1016,7 +1177,7 @@ button,
     padding-top: 20px;
     border-top: 1px solid #E8EEE8;
     color: #075333;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -1084,7 +1245,7 @@ button,
     }
 
     .preparation-feature-header h3 {
-        font-size: 18px !important;
+        font-size: 22px !important;
     }
 
     .preparation-item {
@@ -1159,7 +1320,7 @@ button,
     }
 
     .preparation-feature-header h3 {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .preparation-list {
@@ -1175,7 +1336,7 @@ button,
     }
 
     .preparation-item p {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .preparation-feature-footer span {
@@ -1245,7 +1406,7 @@ button,
 .guru-cpns-intro h2 {
     margin-bottom: 20px;
     color: #075333;
-    font-size: 34px;
+    font-size: 32px !important;
     font-weight: 700;
     line-height: 1.3;
 }
@@ -1253,7 +1414,7 @@ button,
 .guru-cpns-intro p {
     margin-bottom: 12px;
     color: #58675e;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.85;
 }
 
@@ -1291,7 +1452,7 @@ button,
 .guru-cpns-section .guru-cpns-card-heading h3 {
     margin: 0 !important;
     color: #075333 !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 600 !important;
     line-height: 1.5 !important;
 }
@@ -1302,12 +1463,12 @@ button,
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
-    width: 46px;
-    height: 46px;
+    width: 48px;
+    height: 48px;
     border-radius: 13px;
     background: #075333;
     color: #ffca05;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .guru-cpns-icon i {
@@ -1318,7 +1479,7 @@ button,
 .guru-cpns-card-content p {
     margin-bottom: 12px;
     color: #657269;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
 }
 
@@ -1358,7 +1519,7 @@ button,
     }
 
     .guru-cpns-intro h2 {
-        font-size: 26px;
+        font-size: 22px !important;
     }
 
     .guru-cpns-intro p {
@@ -1385,13 +1546,12 @@ button,
     }
 
     .guru-cpns-section .guru-cpns-card-heading h3 {
-        font-size: 14px !important;
+        font-size: 15px !important;
     }
 
     .guru-cpns-icon {
         width: 42px;
         height: 42px;
-        
     }
 
     .guru-cpns-icon i {
@@ -1446,7 +1606,7 @@ button,
 .mengapa-cpns-content p {
     margin-bottom: 15px;
     color: #58675e;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.85;
 }
 
@@ -1494,18 +1654,18 @@ button,
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     border-radius: 14px;
     background: #075333;
     color: #ffca05;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .mengapa-cpns-feature-header h3 {
     margin: 0 0 5px !important;
     color: #075333 !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 700 !important;
     line-height: 1.4 !important;
 }
@@ -1513,7 +1673,7 @@ button,
 .mengapa-cpns-feature-header p {
     margin: 0;
     color: #7a877e;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.6;
 }
 
@@ -1547,7 +1707,7 @@ button,
 
 .mengapa-cpns-item span {
     color: #58675e;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.7;
 }
 
@@ -1571,7 +1731,7 @@ button,
 .mengapa-cpns-footer p {
     margin: 0;
     color: #58675e;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
 }
 
@@ -1606,7 +1766,7 @@ button,
     }
 
     .mengapa-cpns-content h2 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .mengapa-cpns-content p {
@@ -1638,7 +1798,7 @@ button,
     }
 
     .mengapa-cpns-feature-header h3 {
-        font-size: 14px !important;
+        font-size: 15px !important;
     }
 
     .mengapa-cpns-list {
@@ -1719,7 +1879,7 @@ button,
 .dukungan-asn-description {
     margin-bottom: 27px;
     color: #58675e;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.85;
 }
 
@@ -1752,7 +1912,7 @@ button,
 .dukungan-asn-item h3 {
     margin: 0 0 4px !important;
     color: #075333 !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 600 !important;
     line-height: 1.5 !important;
 }
@@ -1760,7 +1920,7 @@ button,
 .dukungan-asn-item p {
     margin: 0;
     color: #657269;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.7;
 }
 
@@ -1805,7 +1965,7 @@ button,
     }
 
     .dukungan-asn-content h2 {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .dukungan-asn-description {
@@ -1833,14 +1993,13 @@ button,
     }
 
     .dukungan-asn-item h3 {
-        font-size: 13px !important;
+        font-size: 15px !important;
     }
 
     .dukungan-asn-item p {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
-
 
 
 /* =====================================
@@ -1881,7 +2040,7 @@ button,
 
 .materi-cpns-intro h2 {
     color: #075333;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.3;
     margin-bottom: 15px;
@@ -1889,7 +2048,7 @@ button,
 
 .materi-cpns-intro p {
     color: #666666;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
     margin: 0;
 }
@@ -1923,16 +2082,16 @@ button,
 }
 
 .materi-cpns-icon {
-    width: 44px;
-    height: 44px;
-    min-width: 44px;
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #075333;
     color: #ffca05;
     border-radius: 11px;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .materi-cpns-category {
@@ -1947,7 +2106,7 @@ button,
 
 .materi-cpns-heading h3 {
     color: #075333;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 700;
     line-height: 1.35;
     margin: 0;
@@ -1957,7 +2116,7 @@ button,
 
 .materi-cpns-section .materi-cpns-description {
     color: #666666 !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
     font-weight: 400 !important;
     line-height: 1.8 !important;
     margin-bottom: 20px;
@@ -1970,14 +2129,14 @@ button,
     align-items: center;
     gap: 8px;
     color: #075333;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     margin-bottom: 13px;
 }
 
 .materi-cpns-subtitle i {
     color: #b88625;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* LIST MATERI */
@@ -1996,7 +2155,7 @@ button,
     gap: 8px;
     color: #666666 !important;
     font-family: inherit !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
     font-weight: 400 !important;
     line-height: 1.8 !important;
     margin: 0 !important;
@@ -2006,14 +2165,14 @@ button,
 .materi-cpns-section .materi-cpns-list .materi-cpns-list-item span {
     color: #666666 !important;
     font-family: inherit !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
     font-weight: 400 !important;
     line-height: 1.4 !important;
 }
 
 .materi-cpns-section .materi-cpns-list .materi-cpns-list-item i {
     color: #075333 !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
     line-height: 1.8 !important;
     font-weight: 700;
     flex-shrink: 0;
@@ -2039,7 +2198,7 @@ button,
 
 .materi-cpns-focus-heading i {
     color: #b88625;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .materi-cpns-focus-heading h4 {
@@ -2051,7 +2210,7 @@ button,
 
 .materi-cpns-section .materi-cpns-focus p {
     color: #666666 !important;
-    font-size: 13px !important;
+    font-size: 15px !important;
     line-height: 1.75 !important;
     margin: 0 0 9px;
 }
@@ -2101,7 +2260,7 @@ button,
     }
 
     .materi-cpns-intro h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .materi-cpns-block {
@@ -2109,14 +2268,14 @@ button,
     }
 
     .materi-cpns-heading h3 {
-        font-size: 14px !important;
+        font-size: 15px !important;
     }
 
     /* UKURAN LIST MATERI */
 
     .materi-cpns-section .materi-cpns-list .materi-cpns-list-item,
     .materi-cpns-section .materi-cpns-list .materi-cpns-list-item span {
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
 
     /* SERAGAMKAN SEMUA PARAGRAF */
@@ -2126,7 +2285,7 @@ button,
     .materi-cpns-section .materi-cpns-description,
     .materi-cpns-section .materi-cpns-focus p {
         font-family: "Poppins", sans-serif !important;
-        font-size: 12px !important;
+        font-size: 13px !important;
         line-height: 1.8 !important;
         font-weight: 400 !important;
     }
@@ -2137,7 +2296,7 @@ button,
     }
 
     .materi-cpns-icon i {
-       font-size: 22px !important;
+       font-size: 20px !important;
     }
 }
 
@@ -2180,7 +2339,7 @@ button,
 
 .keunggulan-cpns-intro p {
     color: #666666;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
     margin: 0 0 8px;
 }
@@ -2223,9 +2382,9 @@ button,
 }
 
 .keunggulan-cpns-icon {
-    width: 43px;
-    height: 43px;
-    min-width: 43px;
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2235,13 +2394,13 @@ button,
 }
 
 .keunggulan-cpns-icon i {
-    font-size: 20px;
+    font-size: 26px;
     line-height: 1;
 }
 
 .keunggulan-cpns-heading h3 {
     color: #075333;
-    font-size: 15px !important;
+    font-size: 18px !important;
     font-weight: 700;
     line-height: 1.4;
     margin: 0;
@@ -2251,7 +2410,7 @@ button,
 
 .keunggulan-cpns-card p {
     color: #666666;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.8;
     margin: 0;
@@ -2291,7 +2450,7 @@ button,
     }
 
     .keunggulan-cpns-intro h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .keunggulan-cpns-intro p {
@@ -2310,15 +2469,18 @@ button,
     .keunggulan-cpns-icon {
         width: 42px;
         height: 42px;
-        min-width: 40px;
+        min-width: 42px;
     }
 
     .keunggulan-cpns-icon i {
-        font-size: 22px !important;
+        font-size: 20px !important;
     }
 
     .keunggulan-cpns-heading h3 {
-        font-size: 14px !important;
+        font-size: 15px !important;
+    }
+    .keunggulan-cpns-card p{
+        font-size: 13px;
     }
 }
 
@@ -2361,7 +2523,7 @@ button,
 .pilihan-les-cpns-intro p {
     margin: 0;
     color: #626d65;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
 }
 
@@ -2396,22 +2558,22 @@ button,
     flex: 0 0 46px;
     align-items: center;
     justify-content: center;
-    width: 46px;
-    height: 46px;
+    width: 48px;
+    height: 48px;
     background: #075333;
     color: #ffca05;
     border-radius: 10px;
 }
 
 .pilihan-les-cpns-icon i {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1;
 }
 
 .pilihan-les-cpns-heading h3 {
     margin: 0 !important;
     color: #075333 !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 700 !important;
     line-height: 1.4 !important;
 }
@@ -2419,7 +2581,7 @@ button,
 .pilihan-les-cpns-card p {
     margin: 0 0 13px;
     color: #626d65;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.8;
 }
 
@@ -2450,7 +2612,7 @@ button,
     }
 
     .pilihan-les-cpns-intro h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .pilihan-les-cpns-intro p {
@@ -2481,7 +2643,7 @@ button,
     }
 
     .pilihan-les-cpns-icon i {
-        font-size: 22px !important;
+        font-size: 20px !important;
     }
 
 }
@@ -2532,11 +2694,11 @@ button,
 .sistem-cpns-intro > p {
     margin: 0;
     color: #626d65;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.9;
 }
 
-.sistem-cpns-note {
+/*.sistem-cpns-note {
     display: flex;
     align-items: flex-start;
     gap: 12px;
@@ -2559,7 +2721,7 @@ button,
 
 .sistem-cpns-note span{
     font-size: 13px;
-}
+}*/
 
 /* List */
 .sistem-cpns-list {
@@ -2586,22 +2748,22 @@ button,
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 46px;
-    height: 46px;
+    width: 48px;
+    height: 48px;
     background: #075333;
     color: #ffca05;
     border-radius: 12px;
 }
 
 .sistem-cpns-item-icon i {
-    font-size: 21px;
+    font-size: 26px;
     line-height: 1;
 }
 
 .sistem-cpns-item-content h3 {
     margin: 0 0 11px !important;
     color: #075333 !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 700 !important;
     line-height: 1.45 !important;
 }
@@ -2609,7 +2771,7 @@ button,
 .sistem-cpns-item-content p {
     margin: 0 0 10px;
     color: #626d65;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.8;
 }
 
@@ -2649,20 +2811,20 @@ button,
     }
 
     .sistem-cpns-intro h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .sistem-cpns-intro > p {
         font-size: 13px;
     }
 
-    .sistem-cpns-note {
+    /*.sistem-cpns-note {
         margin-top: 20px;
     }
 
     .sistem-cpns-note span {
-        font-size: 12px;
-    }
+        font-size: 1px;
+    }*/
 
     .sistem-cpns-item {
         grid-template-columns: 40px 1fr;
@@ -2678,11 +2840,11 @@ button,
     }
 
     .sistem-cpns-item-icon i {
-        font-size: 22px !important;
+        font-size: 20px !important;
     }
 
     .sistem-cpns-item-content h3 {
-        font-size: 14px !important;
+        font-size: 15px !important;
     }
 
     .sistem-cpns-item-content p {
@@ -2809,167 +2971,6 @@ button,
     border-radius: 15px;
     color: #fff;
     padding: 20px 50px 15px 40px;
-}
-
-@media only screen and (max-width: 767px) {
-
-    /* Global CSS */
-    h2,
-    h3,
-    h4,
-    h5 {
-        font-size: 20px !important;
-    }
-
-    p,
-    a,
-    ul li,
-    ol li,
-    b,
-    button,
-    .accordion .accordion-item .accordion-button,
-    i,
-    strong {
-        font-family: "Poppins", sans-serif;
-        ;
-        font-size: 12px !important;
-    }
-
-    .header-mobile .icon p,
-     {
-        font-size: 10px;
-    }
-
-    /* Akhir global CSS */
-
-    /* Header */
-    .header-mobile .menu {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        padding: 0;
-        z-index: 1000;
-        background-color: #ffffff;
-    }
-
-    /* Akhir header */
-
-    /* Section header */
-    .header-beranda {
-        background-image: url('images/bg-hero.png');
-        display: block;
-        position: relative;
-        padding: 0;
-        border-radius: 0;
-    }
-
-    .header-beranda .text-header p,
-    .header-beranda .text-header ul li {
-        font-size: 12px;
-    }
-
-    .header-beranda .text-header .teks-detail {
-        margin-left: -30px;
-    }
-
-    .header-beranda .container .btn {
-        font-size: 12px;
-        padding: 5px 10px;
-    }
-
-    .header-beranda img {
-        margin-top: 0;
-    }
-
-    .header-beranda #header-image-beranda {
-        width: 100%;
-    }
-
-    .header-beranda ul span i {
-        font-size: 10px;
-    }
-
-    .header-beranda #header-image-beranda {
-        position: relative;
-        border-radius: 0 0 20px 20px;
-    }
-
-    .header-beranda .d-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .header-beranda .card {
-        padding: 20px 20px 10px 20px;
-        box-shadow: 1px 1px 7px #ccc;
-        border-radius: 20px;
-        margin-bottom: 15px;
-        margin-top: -10px;
-    }
-
-    .header-beranda .d-grid li {
-        font-size: 12px;
-        margin-left: -15px;
-        margin-right: -15px;
-        text-align: start;
-        color: #045323;
-    }
-
-    .header-beranda .container p .header-beranda .container ul li {
-        font-size: 12px;
-    }
-
-    .header-beranda .image-header {
-        margin-top: 0px;
-    }
-
-    .header-beranda h1 {
-        font-size: 22px;
-    }
-
-    .header-beranda ul li {
-        font-size: 12px;
-        margin-left: 20px;
-    }
-
-    /* Akhir section header */
-
-    .button-wa {
-        right: 0;
-    }
-
-    .button-wa .popup-cta {
-        margin: auto;
-        margin-bottom: 10px;
-        width: 95%;
-    }
-
-    .button-wa .popup-cta .admin-item {
-        gap: 7px;
-    }
-
-    .button-wa .popup-cta .popup-text {
-        padding: 5px;
-    }
-
-    .button-wa .popup-cta .popup-text p,
-    .button-wa .popup-cta .admin-item span,
-    .button-wa span {
-        font-size: 12px;
-    }
-
-    .button-wa .popup-cta .admin-item img,
-    .button-wa img {
-        width: 40px;
-    }
-
-    /* Akhir page kontak kami */
-
-    .header-beranda .container .image-header img {
-        padding-left: 0;
-    }
-
 }
 
 
@@ -3593,7 +3594,7 @@ button,
     max-width: 620px;
     margin: 0 auto;
     color: #657168;
-    font-size: 13px !important;
+    font-size: 15px !important;
     font-weight: 400;
     line-height: 1.8;
 }
@@ -3640,12 +3641,12 @@ button,
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 43px;
-    height: 43px;
+    width: 48px;
+    height: 48px;
     background: #EAF3EB;
     border-radius: 10px;
     color: #075333;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .testimonial-quote i {
@@ -3656,7 +3657,7 @@ button,
 
 .testimonial-index {
     color: #9AA79D;
-    font-size: 10px !important;
+    font-size: 12px !important;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -3666,7 +3667,7 @@ button,
 .testimonial-card > p {
     margin: 0 0 25px;
     color: #657168;
-    font-size: 12px !important;
+    font-size: 15px !important;
     font-weight: 400;
     line-height: 1.9;
 }
@@ -3711,7 +3712,7 @@ button,
     margin: 0 0 3px !important;
     color: #075333 !important;
     font-family: 'Poppins', sans-serif !important;
-    font-size: 13px !important;
+    font-size: 16px !important;
     font-weight: 600 !important;
     line-height: 1.5 !important;
 }
@@ -3719,7 +3720,7 @@ button,
 .testimonial-author-info span {
     display: block;
     color: #89958B;
-    font-size: 10px !important;
+    font-size: 15px !important;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -3769,14 +3770,14 @@ button,
     }
 
     .testimonial-heading h2 {
-        font-size: 23px !important;
+        font-size: 22px !important;
         line-height: 1.4;
         margin-bottom: 11px;
     }
 
     .testimonial-heading > p {
         margin: 0;
-        font-size: 12px !important;
+        font-size: 13px !important;
         line-height: 1.8;
     }
 
@@ -3795,14 +3796,14 @@ button,
     }
 
     .testimonial-quote {
-        width: 39px;
-        height: 39px;
-        font-size: 22px;
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
     }
 
     .testimonial-card > p {
         margin-bottom: 19px;
-        font-size: 11px !important;
+        font-size: 13px !important;
         line-height: 1.85;
     }
 
@@ -3817,11 +3818,11 @@ button,
     }
 
     .testimonial-author h3 {
-        font-size: 12px !important;
+        font-size: 15px !important;
     }
 
     .testimonial-author-info span {
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
 }
 
@@ -3905,7 +3906,7 @@ button,
 .list-kota-header h2 {
     margin: 0 auto 15px;
     color: #075333;
-    font-size: 29px !important;
+    font-size: 30px !important;
     font-weight: 700;
     line-height: 1.4;
 }
@@ -3913,7 +3914,7 @@ button,
 .list-kota-header p {
     margin: 0 auto 12px;
     color: #59675E;
-    font-size: 13px !important;
+    font-size: 15px !important;
     font-weight: 400;
     line-height: 1.8;
 }
@@ -3955,7 +3956,7 @@ button,
     border: 1px solid #EDF2ED;
     border-radius: 8px;
     color: #075333 !important;
-    font-size: 12px !important;
+    font-size: 15px !important;
     font-weight: 500;
     line-height: 1.5;
     text-decoration: none !important;
@@ -4013,9 +4014,10 @@ button,
 .list-kota-footer p {
     margin: 0;
     color: #496253;
-    font-size: 12px !important;
+    font-size: 15px !important;
     font-weight: 400;
     line-height: 1.7;
+    text-align: center;
 }
 
 /* TABLET */
@@ -4066,7 +4068,7 @@ button,
     }
 
     .list-kota-header p {
-        font-size: 12px !important;
+        font-size: 13px !important;
         line-height: 1.8;
     }
 
@@ -4087,7 +4089,7 @@ button,
     .list-kota-grid a {
         gap: 7px;
         padding: 10px 9px;
-        font-size: 11px !important;
+        font-size: 13px !important;
         line-height: 1.5;
     }
 
@@ -4113,7 +4115,7 @@ button,
     }
 
     .list-kota-footer p {
-        font-size: 11px !important;
+        font-size: 13px !important;
         line-height: 1.7;
     }
 }
@@ -4199,7 +4201,7 @@ button,
 .faq-cpns-intro h2 {
     margin: 0 0 17px;
     color: #075333;
-    font-size: 32px !important;
+    font-size: 30px !important;
     font-weight: 700;
     line-height: 1.35;
 }
@@ -4207,14 +4209,14 @@ button,
 .faq-cpns-intro > p {
     margin: 0;
     color: #657168;
-    font-size: 13px !important;
+    font-size: 15px !important;
     font-weight: 400;
     line-height: 1.9;
 }
 
 /* HELP BOX */
 
-.faq-cpns-help {
+/*.faq-cpns-help {
     display: flex;
     align-items: flex-start;
     gap: 13px;
@@ -4253,7 +4255,7 @@ button,
     color: #647268;
     font-size: 11px !important;
     line-height: 1.7;
-}
+}*/
 
 /* FAQ CONTENT */
 
@@ -4291,7 +4293,7 @@ button,
     border: none;
     color: #075333;
     font-family: 'Poppins', sans-serif !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
     font-weight: 600;
     line-height: 1.6;
     text-align: left;
@@ -4304,7 +4306,7 @@ button,
     flex-shrink: 0;
     min-width: 23px;
     color: #B38A24;
-    font-size: 11px !important;
+    font-size: 15px !important;
     font-weight: 700;
 }
 
@@ -4313,7 +4315,7 @@ button,
 .faq-cpns-question-text {
     flex: 1;
     min-width: 0;
-    font-size: 14px !important;
+    font-size: 15px !important;
     line-height: 1.6;
 }
 
@@ -4321,7 +4323,7 @@ button,
 
 .faq-cpns-item.active .faq-cpns-question,
 .faq-cpns-item.active .faq-cpns-question-text {
-    font-size: 14px !important;
+    font-size: 15px !important;
 }
 
 /* TOGGLE */
@@ -4337,7 +4339,7 @@ button,
     background: #F0F6F1;
     border-radius: 50%;
     color: #075333;
-    font-size: 13px;
+    font-size: 15px;
     transition: all 0.25s ease;
 }
 
@@ -4358,7 +4360,7 @@ button,
     margin: 0;
     padding: 0 60px 0;
     color: #68746B;
-    font-size: 13px !important;
+    font-size: 15px !important;
     font-weight: 400;
     line-height: 1.9;
     opacity: 0;
@@ -4449,17 +4451,17 @@ button,
 
     .faq-cpns-intro h2 {
         max-width: 400px;
-        font-size: 23px !important;
+        font-size: 22px !important;
         line-height: 1.4;
         margin-bottom: 12px;
     }
 
     .faq-cpns-intro > p {
-        font-size: 12px !important;
+        font-size: 13px !important;
         line-height: 1.8;
     }
 
-    .faq-cpns-help {
+    /*.faq-cpns-help {
         margin-top: 20px;
         padding: 14px;
     }
@@ -4467,7 +4469,7 @@ button,
     .faq-cpns-help h4,
     .faq-cpns-help strong {
         font-size: 12px !important;
-    }
+    }*/
 
     .faq-cpns-content {
         border-radius: 10px;
@@ -4476,24 +4478,24 @@ button,
     .faq-cpns-question {
         gap: 10px;
         padding: 13px 12px;
-        font-size: 12px !important;
+        font-size: 13px !important;
         line-height: 1.5 !important;
     }
 
     .faq-cpns-question-text {
-        font-size: 12px !important;
+        font-size: 13px !important;
         line-height: 1.5 !important;
         font-weight: 600;
     }
 
     .faq-cpns-item.active .faq-cpns-question,
     .faq-cpns-item.active .faq-cpns-question-text {
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
 
     .faq-cpns-number {
         min-width: 20px;
-        font-size: 9px !important;
+        font-size: 14px !important;
     }
 
     .faq-cpns-toggle {
@@ -4504,7 +4506,7 @@ button,
 
     .faq-cpns-answer p {
         padding: 0 43px;
-        font-size: 12px !important;
+        font-size: 13px !important;
         line-height: 1.7;
     }
 
@@ -4547,8 +4549,6 @@ button,
         padding: 0 38px 15px;
     }
 }
-
-
 
 
 /* ==============================
@@ -4621,7 +4621,7 @@ button,
     border: 1px solid #D8C47B;
     border-radius: 30px;
     color: #66521D;
-    font-size: 10px !important;
+    font-size: 11px !important;
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 1.5;
@@ -4631,7 +4631,7 @@ button,
     margin: 0 0 19px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif !important;
-    font-size: 29px !important;
+    font-size: 30px !important;
     font-weight: 700 !important;
     line-height: 1.4;
 }
@@ -4639,7 +4639,7 @@ button,
 .guru-cpns-cta-content p {
     margin: 0 0 14px;
     color: rgba(255, 255, 255, 0.82);
-    font-size: 12px !important;
+    font-size: 15px !important;
     font-weight: 400;
     line-height: 1.9;
 }
@@ -4755,13 +4755,13 @@ button,
 
     .guru-cpns-cta-content h2 {
         margin-bottom: 14px;
-        font-size: 23px !important;
+        font-size: 22px !important;
         line-height: 1.4;
     }
 
     .guru-cpns-cta-content p {
         margin-bottom: 12px;
-        font-size: 11px !important;
+        font-size: 13px !important;
         line-height: 1.8;
     }
 
@@ -4816,7 +4816,6 @@ button,
         transition: none;
     }
 }
-
 
 
 /* FOOTER */
@@ -5010,9 +5009,6 @@ button,
 
 /* MOBILE */
 @media (max-width: 767px) {
-    .pn-footer {
-        border-radius: 15px 15px 0 0;
-    }
 
     .pn-footer-main {
         padding: 32px 0 25px;
@@ -5034,14 +5030,14 @@ button,
         max-width: 260px;
         height: 65px;
         margin: 0 auto;
-        object-position: center;
     }
 
     .pn-footer-description {
         max-width: 420px;
-        margin: 14px auto 0;
+        margin: 14px 0 0;
         font-size: 12px;
         line-height: 1.7;
+        text-align: left;
     }
 
     .pn-footer-address h3,
