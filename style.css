@@ -706,7 +706,7 @@ button,
     }
 
     .produk-heading h2 {
-        font-size: 22px !important;
+        font-size: 20px !important;
         line-height: 1.4;
     }
 
@@ -815,50 +815,6 @@ button,
         font-size: 10px;
     }
 }
-
-
-
-/* Section CTA */
-.cta-page .container {
-    background-color: #f2c300;
-    padding: 100px 30px;
-    border-radius: 20px;
-    margin-top: 100px;
-    color: #013616;
-}
-
-.button-cta {
-    background-color: #045323;
-    display: inline-block;
-    border-radius: 30px;
-    padding: 10px 10px 5px 25px;
-}
-
-.button-cta a {
-    font-weight: bold;
-    margin-left: -7px;
-    margin-top: -15px;
-}
-
-.button-cta i {
-    font-size: 30px;
-}
-
-.text-cta {
-    width: 55%;
-    text-align: justify;
-}
-
-.cta-page .container .image-cta {
-    position: relative;
-    margin-top: -600px;
-}
-
-.cta-page .container img {
-    position: absolute;
-}
-
-/* Akhir Section CTA */
 
 
 
@@ -1026,8 +982,6 @@ button,
         font-size: 9px;
     }
 }
-
-
 
 /* PREPARATION SECTION */
 
@@ -1320,7 +1274,7 @@ button,
     }
 
     .preparation-feature-header h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .preparation-list {
@@ -1519,7 +1473,7 @@ button,
     }
 
     .guru-cpns-intro h2 {
-        font-size: 22px !important;
+        font-size: 20px !important;
     }
 
     .guru-cpns-intro p {
@@ -1766,7 +1720,7 @@ button,
     }
 
     .mengapa-cpns-content h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .mengapa-cpns-content p {
@@ -1965,7 +1919,7 @@ button,
     }
 
     .dukungan-asn-content h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .dukungan-asn-description {
@@ -2260,7 +2214,7 @@ button,
     }
 
     .materi-cpns-intro h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .materi-cpns-block {
@@ -2450,7 +2404,7 @@ button,
     }
 
     .keunggulan-cpns-intro h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .keunggulan-cpns-intro p {
@@ -2612,7 +2566,7 @@ button,
     }
 
     .pilihan-les-cpns-intro h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .pilihan-les-cpns-intro p {
@@ -2811,7 +2765,7 @@ button,
     }
 
     .sistem-cpns-intro h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .sistem-cpns-intro > p {
@@ -2853,9 +2807,6 @@ button,
 }
 
 
-.cta-2 {
-    margin-top: 50px;
-}
 
 /* Section button WA */
 .button-wa {
@@ -2925,611 +2876,6 @@ button,
     background: #f2c300;
     padding: 5px 0 5px 10px;
     border-radius: 20px;
-}
-
-
-/* Akhir section footer */
-
-.produk-page {
-    margin-top: 90px;
-}
-
-/* Page kontak kami */
-.kontak-kami {
-    margin-top: -40px
-}
-
-.kontak-kami .container {
-    margin-top: 120px
-}
-
-.kontak-kami .container .col {
-    box-shadow: 2px 3px 7px #aaa;
-    border-radius: 20px
-}
-
-/* Akhir page kontak kami */
-
-.detail-produk .list-produk {
-    margin-top: 100px;
-    background-image: url('images/bg-5.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding-bottom: 50px;
-}
-
-.siswa .container button {
-    background-color: #f2c300;
-    border-radius: 10px;
-    font-weight: 600;
-    box-shadow: 3px 3px 0 #045323;
-}
-
-.card.why-us {
-    background-color: #045323;
-    border-radius: 15px;
-    color: #fff;
-    padding: 20px 50px 15px 40px;
-}
-
-
-.learning-section {
-    margin-top: 100px;
-}
-
-.learning-section-content {
-    display: block;
-    width: 100%;
-}
-
-.learning-section-cards {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 20px;
-    min-width: 0;
-}
-
-.learning-section-card {
-    display: grid;
-    grid-template-columns: 72px minmax(0, 1fr);
-    align-items: start;
-    gap: 16px;
-    min-width: 0;
-    padding: 24px 20px;
-    border: 1px solid #dcefe3;
-    border-radius: 20px;
-    background: #fff;
-    box-shadow: 0 3px 12px rgba(7, 83, 51, 0.06);
-    margin-bottom: 20px;
-}
-
-.learning-section-icon {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 2px;
-}
-
-.learning-section-icon img {
-    display: block;
-    width: 56px;
-    height: 56px;
-    object-fit: contain;
-}
-
-.learning-section-card-body {
-    min-width: 0;
-}
-
-.learning-section-card-body p {
-    line-height: 1.6;
-}
-
-.learning-section-header ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.learning-section-header ul li {
-    position: relative;
-    padding-left: 28px;
-    margin-bottom: 12px;
-}
-
-.learning-section-header ul li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: #F5C542;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-/* VISUAL */
-.learning-section-visual {
-    position: relative;
-    align-self: center;
-    width: 100%;
-    min-width: 0;
-    padding: 0 10px 12px 0;
-}
-
-.learning-section-image-accent {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 88%;
-    height: 88%;
-    border-radius: 28px;
-    background: #ffca05;
-}
-
-.learning-section-image {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    min-height: 300px;
-    overflow: hidden;
-    border-radius: 24px;
-    background: #f2f4ed;
-}
-
-.learning-section-image img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    min-height: 300px;
-    object-fit: cover;
-    object-position: center;
-}
-
-/* TABLET */
-@media (max-width: 900px) {
-    .learning-section-cards {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 16px;
-    }
-
-    .learning-section-card {
-        grid-template-columns: 52px minmax(0, 1fr);
-        gap: 12px;
-        padding: 18px 14px;
-        border-radius: 15px;
-    }
-
-    .learning-section-icon img {
-        width: 46px;
-        height: 46px;
-    }
-
-    .learning-section-card-body p {
-        font-size: 13px;
-    }
-
-    .learning-section-image,
-    .learning-section-image img {
-        min-height: 280px;
-    }
-}
-
-/* MOBILE */
-@media (max-width: 600px) {
-    .learning-section {
-        margin-top: -50px;
-    }
-
-    .learning-section-cards {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 12px;
-    }
-
-    .learning-section-card {
-        grid-template-columns: 1fr;
-        gap: 12px;
-        padding: 16px 12px;
-        border-radius: 15px;
-    }
-
-    .learning-section-icon {
-        justify-content: flex-start;
-    }
-
-    .learning-section-icon img {
-        width: 46px;
-        height: 46px;
-    }
-
-    .learning-section-card-body p {
-        font-size: 12px;
-        line-height: 1.6;
-    }
-
-    .learning-section-visual {
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-        padding: 0 9px 10px 0;
-    }
-
-    .learning-section-image {
-        height: auto;
-        min-height: 0;
-        aspect-ratio: 4 / 3;
-        border-radius: 20px;
-    }
-
-    .learning-section-image img {
-        width: 100%;
-        height: 100%;
-        min-height: 0;
-        object-fit: cover;
-    }
-
-    .learning-section-image-accent {
-        width: 88%;
-        height: 85%;
-        border-radius: 22px;
-    }
-}
-
-/* SMALL MOBILE */
-@media (max-width: 360px) {
-    .learning-section-card {
-        grid-template-columns: 1fr;
-        gap: 10px;
-        padding: 13px 10px;
-    }
-
-    .learning-section-icon img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .learning-section-card-body p {
-        font-size: 11px;
-    }
-}
-
-
-/* ADVANTAGE SECTION */
-.advantage-section {
-    position: relative;
-    width: 100%;
-    padding: 55px 20px 65px;
-    background: #ffffff;
-    font-family: inherit;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-
-.advantage-section *,
-.advantage-section *::before,
-.advantage-section *::after {
-    box-sizing: border-box;
-}
-
-.advantage-container {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    max-width: 1120px;
-    margin: 0 auto;
-}
-
-/* HEADER */
-.advantage-header {
-    max-width: 720px;
-    margin: 0 auto 35px;
-    text-align: center;
-}
-
-.advantage-header h2 {
-    margin: 0 0 13px;
-    color: #173d2c;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 1.3;
-}
-
-.advantage-header p {
-    margin: 0 0 8px;
-    color: #59675e;
-    font-size: 15px;
-    line-height: 1.7;
-}
-
-/* GRID */
-.advantage-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 20px;
-    align-items: stretch;
-    width: 100%;
-}
-
-/* BASE CARD */
-.advantage-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    width: 100%;
-    padding: 25px 23px 27px;
-    background: #f3f8f2;
-    border: 1px solid #e2ecdf;
-    border-radius: 17px;
-    overflow: hidden;
-    transition:
-        transform 0.3s ease,
-        box-shadow 0.3s ease,
-        border-color 0.3s ease;
-
-    --accent: #078447;
-    --icon-bg: #e5f0e2;
-    --icon-color: #075333;
-    --number-color: #c9ddc5;
-}
-
-/* CARD 1 - GREEN */
-.advantage-grid > .advantage-card:nth-child(1) {
-    background: #f3f8f2;
-    border-color: #e2ecdf;
-    --accent: #078447;
-    --icon-bg: #e5f0e2;
-    --icon-color: #075333;
-    --number-color: #c9ddc5;
-}
-
-/* CARD 2 - YELLOW */
-.advantage-grid > .advantage-card:nth-child(2) {
-    background: #fffbf1;
-    border-color: #f0e9d5;
-    --accent: #d5a92f;
-    --icon-bg: #fff2d0;
-    --icon-color: #98731d;
-    --number-color: #eadbb0;
-}
-
-/* CARD 3 - GREEN */
-.advantage-grid > .advantage-card:nth-child(3) {
-    background: #f2f7f4;
-    border-color: #e0eae3;
-    --accent: #078447;
-    --icon-bg: #e3efe8;
-    --icon-color: #075333;
-    --number-color: #c9ded1;
-}
-
-/* CARD 4 - YELLOW */
-.advantage-grid > .advantage-card:nth-child(4) {
-    background: #fffbf1;
-    border-color: #f0e9d5;
-    --accent: #d5a92f;
-    --icon-bg: #fff2d0;
-    --icon-color: #98731d;
-    --number-color: #eadbb0;
-}
-
-/* CARD 5 - GREEN */
-.advantage-grid > .advantage-card:nth-child(5) {
-    background: #f3f8f2;
-    border-color: #e2ecdf;
-    --accent: #078447;
-    --icon-bg: #e5f0e2;
-    --icon-color: #075333;
-    --number-color: #c9ddc5;
-}
-
-/* CARD 6 - YELLOW */
-.advantage-grid > .advantage-card:nth-child(6) {
-    background: #fffbf1 !important;
-    border-color: #f0e9d5 !important;
-    --accent: #d5a92f;
-    --icon-bg: #fff2d0;
-    --icon-color: #98731d;
-    --number-color: #eadbb0;
-}
-
-/* TOP ACCENT */
-.advantage-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: var(--accent);
-    opacity: 0.55;
-}
-
-.advantage-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--accent);
-    box-shadow: 0 9px 22px rgba(7, 61, 48, 0.07);
-}
-
-/* ICON */
-.advantage-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 0 0 58px;
-    width: 58px;
-    height: 58px;
-    margin-bottom: 20px;
-    background: var(--icon-bg);
-    border: 1px solid rgba(7, 83, 51, 0.08);
-    border-radius: 15px;
-    color: var(--icon-color);
-    transition: transform 0.3s ease;
-}
-
-.advantage-icon i {
-    font-size: 27px !important;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-text-stroke: 0.6px currentColor;
-}
-
-.advantage-card:hover .advantage-icon {
-    transform: translateY(-2px);
-}
-
-/* NUMBER */
-.advantage-number {
-    position: absolute;
-    top: 22px;
-    right: 22px;
-    color: var(--number-color);
-    font-size: 29px;
-    font-weight: 700;
-    line-height: 1;
-}
-
-/* CONTENT */
-.advantage-content {
-    position: relative;
-    z-index: 1;
-}
-
-.advantage-content .title {
-    margin: 0 0 11px;
-    color: #173d2c;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 1.45;
-}
-
-.advantage-content p:not(.title) {
-    margin: 0;
-    color: #59675e;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 1.8;
-}
-
-/* TABLET */
-@media (max-width: 991px) {
-    .advantage-section {
-        padding: 45px 20px 55px;
-    }
-
-    .advantage-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 16px;
-    }
-
-    .advantage-card {
-        padding: 23px 20px 25px;
-    }
-
-    .advantage-header h2 {
-        font-size: 28px;
-    }
-}
-
-/* MOBILE */
-@media (max-width: 600px) {
-    .advantage-section {
-        width: 100%;
-        padding: 35px 15px 45px;
-        background: #ffffff;
-    }
-
-    .advantage-container {
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .advantage-header {
-        margin-bottom: 25px;
-    }
-
-    .advantage-header h2 {
-        font-size: 24px;
-    }
-
-    .advantage-header p {
-        font-size: 13px;
-        line-height: 1.75;
-    }
-
-    .advantage-grid {
-        grid-template-columns: minmax(0, 1fr);
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-        gap: 13px;
-    }
-
-    .advantage-card {
-        width: 100%;
-        min-width: 0;
-        margin: 0;
-        padding: 20px 18px 22px;
-        border-radius: 16px;
-    }
-
-    .advantage-icon {
-        flex: 0 0 54px;
-        width: 54px;
-        height: 54px;
-        margin-bottom: 15px;
-        border-radius: 13px;
-    }
-
-    .advantage-icon i {
-        font-size: 20px !important;
-        font-weight: 400;
-        -webkit-text-stroke: 0.6px currentColor;
-    }
-
-    .advantage-number {
-        top: 18px;
-        right: 18px;
-        font-size: 25px;
-    }
-
-    .advantage-content .title {
-        font-size: 16px;
-        margin-bottom: 9px;
-    }
-
-    .advantage-content p:not(.title) {
-        font-size: 12.5px;
-        line-height: 1.75;
-    }
-}
-
-/* SMALL MOBILE */
-@media (max-width: 380px) {
-    .advantage-section {
-        padding: 30px 12px 40px;
-    }
-
-    .advantage-header h2 {
-        font-size: 22px;
-    }
-
-    .advantage-card {
-        padding: 18px 16px 20px;
-    }
-
-    .advantage-icon {
-        flex-basis: 52px;
-        width: 52px;
-        height: 52px;
-    }
-
-    .advantage-icon i {
-        font-size: 24px;
-    }
 }
 
 
@@ -3770,7 +3116,7 @@ button,
     }
 
     .testimonial-heading h2 {
-        font-size: 22px !important;
+        font-size: 20px !important;
         line-height: 1.4;
         margin-bottom: 11px;
     }
@@ -4062,7 +3408,7 @@ button,
     }
 
     .list-kota-header h2 {
-        font-size: 22px !important;
+        font-size: 20px !important;
         line-height: 1.4;
         margin-bottom: 12px;
     }
@@ -4451,7 +3797,7 @@ button,
 
     .faq-cpns-intro h2 {
         max-width: 400px;
-        font-size: 22px !important;
+        font-size: 20px !important;
         line-height: 1.4;
         margin-bottom: 12px;
     }
@@ -4755,7 +4101,7 @@ button,
 
     .guru-cpns-cta-content h2 {
         margin-bottom: 14px;
-        font-size: 22px !important;
+        font-size: 20px !important;
         line-height: 1.4;
     }
 
@@ -4874,7 +4220,7 @@ button,
 .pn-footer-address h3,
 .pn-footer-products h3 {
     color: #ffffff;
-    font-size: 16px !important;
+    font-size: 20px !important;
     line-height: 1.4;
     font-weight: 700;
     margin: 8px 0 22px;
@@ -4886,7 +4232,7 @@ button,
 
 .pn-footer-address-content p {
     color: #ffffff;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.65;
     margin: 0 0 8px;
 }
@@ -4903,7 +4249,7 @@ button,
 }
 
 .pn-footer-products h3 {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .pn-footer-product-grid {
@@ -4922,14 +4268,14 @@ button,
     padding-left: 0;
     margin-bottom: 3px;
     color: #ffffff;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
 .pn-footer-product-grid a {
     color: #ffffff !important;
     text-decoration: none !important;
-    font-size: 13px;
+    font-size: 15px;
     transition: color 0.2s ease;
 }
 
@@ -4957,7 +4303,7 @@ button,
 
 .pn-footer-copyright a {
     color: #ffffff !important;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     text-decoration: underline;
     text-underline-offset: 3px;
@@ -5042,13 +4388,13 @@ button,
 
     .pn-footer-address h3,
     .pn-footer-products h3 {
-        font-size: 15px !important;
+        font-size: 18px !important;
         margin-top: 0;
         margin-bottom: 14px;
     }
 
     .pn-footer-address-content p {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1.65;
     }
 
@@ -5072,7 +4418,7 @@ button,
 
     .pn-footer-product-grid li,
     .pn-footer-product-grid a {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1.6;
     }
 
@@ -5086,7 +4432,7 @@ button,
     }
 
     .pn-footer-copyright a {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
